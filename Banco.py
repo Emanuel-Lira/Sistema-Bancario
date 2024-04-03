@@ -26,7 +26,7 @@ limiteSaques = 3
 
 while True:
 
-    opcao = input(menu)
+    opcao = input(menu).lower
 
     if opcao == 'd':
 
