@@ -16,13 +16,15 @@ limite = 500
 extrato = ""
 numeroSaques = 0
 limiteSaques = 3
+usuario = []
+
+def criarUsuario():
+    nome = input('Digite o seu nome')
 
 def depositar():
     global saldo, extrato
     valor = float(input('Digite o valor que deseja depositar: '))
-
-    if valor > 0:
-            
+    if valor > 0:    
         saldo +=valor
         print('Depósito realizado com sucesso')
         extrato += f'Depósito: R${valor:.2f}\n'
