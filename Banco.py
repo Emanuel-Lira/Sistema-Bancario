@@ -1,5 +1,4 @@
-'''https://github.com/digitalinnovationone/trilha-python-dio/blob/main/00%20-%20Fundamentos/desafio.py
-
+'''
 apenas 3 operações: depósito, saque e extrato
 Depositar apenas valores positivos
 Todos os depositos devem ser armazenados em uma variavel e exibido no extrato
