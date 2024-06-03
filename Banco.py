@@ -16,10 +16,6 @@ limite = 500
 extrato = ""
 numeroSaques = 0
 limiteSaques = 3
-usuario = []
-
-def criarUsuario():
-    nome = input('Digite o seu nome')
 
 def depositar():
     global saldo, extrato
